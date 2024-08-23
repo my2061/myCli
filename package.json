@@ -1,5 +1,5 @@
 {
-  "name": "my-cli",
+  "name": "mengy-test-cli",
   "version": "1.0.2",
   "description": "",
   "main": "index.js",
@@ -22,5 +22,9 @@
     "inquirer": "^10.1.8",
     "ora": "^8.0.1",
     "shelljs": "^0.8.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/my2061/myCli.git"
   }
 }
