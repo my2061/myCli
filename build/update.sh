@@ -32,7 +32,7 @@ then
   npm version $next_version --message "[release]: $next_version"
 
   # 提交修改
-  git push origin master
+  git push origin main
 
   # 提交tag到仓库
   git push origin refs/tags/1v$next_version
