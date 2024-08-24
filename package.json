@@ -1,6 +1,6 @@
 {
   "name": "mengy-test-cli",
-  "version": "4.9.8",
+  "version": "2.9.7",
   "description": "",
   "main": "index.js",
   "bin": {
