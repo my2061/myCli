@@ -43,5 +43,5 @@ program
     });
   });
 
-/* 解析参数命令行参数 */
+/* 解析参数命令行输入的参数 */
 program.parse(process.argv);
