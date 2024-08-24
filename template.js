@@ -33,7 +33,7 @@ export const modifyPkgJson = [
     name: "description",
   },
   {
-    message: "请输入作者名称",
+    message: "请输入作者名",
     name: "author",
   },
   {
