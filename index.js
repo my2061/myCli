@@ -6,7 +6,7 @@ import chalk from "chalk";
 import { readFile } from "fs/promises";
 import initAction from "./initAction.js";
 
-/* 拿到package.json中的数据 */
+/* 拿到package.json */
 const pkg = JSON.parse(
   /* 异步的，new URl将后面的参数拼接到前面的参数前面，找到package.json文件 */
   await readFile(new URL("./package.json", import.meta.url))
