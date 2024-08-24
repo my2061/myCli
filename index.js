@@ -32,7 +32,7 @@ program
   .option("-i --ignore", "忽略项目相关描述，快速创建项目")
   .action(initAction);
 
-/* 监听list命令 */
+/* 监听list命令输入 */
 program
   .command("list")
   .description("查看所有可用的模版")
